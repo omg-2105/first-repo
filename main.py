@@ -37,6 +37,10 @@ print("Кухня готова, Гіт працює!")
 # print(dir(my_list))
 # print(dir(my_set))
 
-numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-even_numbers = list(filter(lambda x: x % 2 == 0, numbers))
-print(even_numbers)  # Вывод: [2, 4, 6, 8, 10]
+# numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# even_numbers = list(filter(lambda x: x % 2 == 0, numbers))
+# print(even_numbers)  # Вывод: [2, 4, 6, 8, 10]
+
+# words = ["banana", "apple", "cherry", "date"]
+# sorted_words = sorted(words, key=lambda x: len(x))
+# print(sorted_words)  # Вывод: ['date', 'apple', 'banana', 'cherry']

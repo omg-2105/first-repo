@@ -88,3 +88,13 @@ print("Кухня готова, Гіт працює!")
 # for value in large_range(1000000):
 #     # Обрабатываем значения по одному
 #     print(value)
+
+# def fibonacci():
+#     a, b = 0, 1
+#     while True:
+#         yield a
+#         a, b = b, a + b
+#
+# fib = fibonacci()
+# for _ in range(10):
+#     print(next(fib))

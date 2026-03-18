@@ -98,3 +98,57 @@ print("Кухня готова, Гіт працює!")
 # fib = fibonacci()
 # for _ in range(10):
 #     print(next(fib))
+
+# def natural_numbers():
+#     n = 1
+#     while True:
+#         yield n
+#         n += 1
+#
+# naturals = natural_numbers()
+# for _ in range(10):
+#     print(next(naturals))
+
+# # 1. Визначаємо декоратор
+# def log_decorator(func):
+#     def wrapper():
+#         print("--- Повідомлення ПЕРЕД викликом функції ---")
+#         func()  # Виклик самої функції greet()
+#         print("--- Повідомлення ПІСЛЯ виклику функції ---")
+#     return wrapper
+#
+# # 2. Застосовуємо декоратор до функції greet
+# @log_decorator
+# def greet():
+#     print("Вітаю! З Днем народження та вдалими знахідками!")
+#
+# # 3. Викликаємо декоровану функцію
+# greet()
+
+# def signal_booster(original_function):
+#     def wrapper():
+#         print("Підсилюємо сигнал антеною за 5500 грн...")
+#         original_function() # Викликаємо твою функцію
+#         print("З'єднання стабільне!")
+#     return wrapper
+#
+# @signal_booster
+# def open_python_lesson():
+#     print("Відкриваємо лекцію на JavaRush")
+#
+# # Тепер викликаємо:
+# open_python_lesson()
+
+# def logger(func):
+#     def wrapper():
+#         print("Запит відправлено на вишку...")
+#         func()
+#         print("Завантаження завершено!")
+#     return wrapper
+#
+# @logger
+# def download_lesson():
+#     print("...йде завантаження Python лекції...")
+#
+# # Виклич функцію нижче:
+# download_lesson()
